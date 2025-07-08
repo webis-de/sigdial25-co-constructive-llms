@@ -20,7 +20,7 @@ In each of the three sub-directories, you will find the code for the different c
 
 - [`./application`](./application): This directory contains the application that was build to conduct the study (i.e., the questionnaires and the interaction with the LLM).
 - [`./evaluation`](./evaluation): This directory contains the code for the evaluation of the collected data.
-- [`./turn-label-predictions`](./turn-label-predictions): This directory contains the code to train the turn label prediction model originally prposed by [Alshomary, et al. 2024](https://aclanthology.org/2024.lrec-main.1007/).
+- [`./turn-label-predictions`](./turn-label-predictions): This directory contains the code to train the turn label prediction model originally proposed by [Alshomary, et al. 2024](https://aclanthology.org/2024.lrec-main.1007/).
 
 
 
