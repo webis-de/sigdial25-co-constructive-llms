@@ -1,0 +1,53 @@
+{
+    "quarto": {
+        "pre_subj_comprehension": 0.3743273501932235,
+        "pre_motivation": 0.928279039789728,
+        "post_subj_comprehension": 0.0441119975705243,
+        "post_motivation": 0.7159644452506436,
+        "post_obj_comprehension": 0.9434151497502128,
+        "post_obj_comprehension_open-question-q1": 0.6569863784648777,
+        "post_enabledness": 0.2056763241186076,
+        "post_enabledness_open-question-q1": 0.8111360501954196,
+        "post_constructiveness": 0.0632819834587914,
+        "chat_duration_time": 0.03961212283342699,
+        "num_EE_queries": 0.17032480441852316,
+        "EE_processing_times": 1.0,
+        "num_EX_sentences": 1.1198275488491601e-05,
+        "num_EX_words": 0.006199689827688403,
+        "EX_write_times": 1.2668512044158137e-05
+    },
+    "sleep": {
+        "pre_subj_comprehension": 0.3167713740974828,
+        "pre_motivation": 0.5078612042279382,
+        "post_subj_comprehension": 0.6892320187948772,
+        "post_motivation": 0.5280422508290297,
+        "post_obj_comprehension": 0.9012475461088649,
+        "post_obj_comprehension_open-question-q1": 1.0,
+        "post_enabledness": 0.2878791919668584,
+        "post_enabledness_open-question-q1": 1.0,
+        "post_constructiveness": 0.008976129364035502,
+        "chat_duration_time": 0.027966501975969008,
+        "num_EE_queries": 0.0001480920117898689,
+        "EE_processing_times": 0.1057377165786158,
+        "num_EX_sentences": 4.97500630661558e-09,
+        "num_EX_words": 0.0032498450672606566,
+        "EX_write_times": 5.048232513127332e-09
+    },
+    "blackholes": {
+        "pre_subj_comprehension": 0.3435776354505278,
+        "pre_motivation": 0.2957352674235352,
+        "post_subj_comprehension": 0.18843516948160532,
+        "post_motivation": 0.2498830919256767,
+        "post_obj_comprehension": 0.821248991301851,
+        "post_obj_comprehension_open-question-q1": 0.6904547007526439,
+        "post_enabledness": 0.7593216253615908,
+        "post_enabledness_open-question-q1": 0.8311778222651384,
+        "post_constructiveness": 3.5998326541177016e-05,
+        "chat_duration_time": 0.5711731293143796,
+        "num_EE_queries": 0.8782086400651459,
+        "EE_processing_times": 0.5294459788307723,
+        "num_EX_sentences": 2.4145387845527525e-11,
+        "num_EX_words": 0.684624935116463,
+        "EX_write_times": 8.717578130517352e-11
+    }
+}

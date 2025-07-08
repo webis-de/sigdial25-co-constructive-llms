@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ form_title }}</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+            {% if messages %}
+            <div class="mb-4">
+                {% for message in messages %}
+                <p class="text-red-600 font-semibold">{{ message }}</p>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            <h2 class="text-xl font-bold mb-4">{{ form_title }}</h2>
+            {% if subtext %}
+            <p class="text-gray-600 mb-6">{{ subtext | linebreaksbr}}</p>
+            {% endif %}
+            <form method="post">
+                <hr />
+                {% csrf_token %} {% for question in questions_with_images %}
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold">{{ question.label }}</label>
+
+                    <!-- Display the image if image_url is available -->
+                    {% if question.image_url %}
+                    <img
+                        src="{{ question.image_url }}"
+                        alt="Image for {{ question.label }}"
+                        class="mb-2"
+                    />
+                    {% endif %}
+
+                    <!-- Render the form field -->
+                    {{ question.field }}
+                </div>
+                <hr />
+                {% endfor %}
+
+                <div class="flex justify-between mt-4">
+                    {% if allow_revisit_previous and previous_page is not None %}
+                    <a
+                        href="{% url 'study:form_page' user_id=user_id page_index=previous_page %}"
+                        class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-all inline-block"
+                    >
+                        Back
+                    </a>
+                    {% endif %} {% if next_page is not None %}
+                    <button
+                        type="submit"
+                        class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-all ml-auto"
+                    >
+                        Next
+                    </button>
+                    {% else %}
+                    <button
+                        type="submit"
+                        class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-all ml-auto"
+                    >
+                        Finish
+                    </button>
+                    {% endif %}
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

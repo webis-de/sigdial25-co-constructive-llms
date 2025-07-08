@@ -1,0 +1,110 @@
+{
+    "quarto": {
+        "base": {
+            "pre_subj_comprehension": "3.0 +-0.7",
+            "pre_motivation": "3.9 +-0.5",
+            "post_subj_comprehension": "3.8 +-0.6",
+            "post_motivation": "4.1 +-0.6",
+            "post_obj_comprehension": "73.3% +-17.7",
+            "post_obj_comprehension_open-question-q1": "67.4% found the chat sufficient to answer the questions/statements",
+            "post_enabledness": "59.6% +-24.8",
+            "post_enabledness_open-question-q1": "76.1% found the chat sufficient to answer the questions/statements",
+            "post_constructiveness": "3.8 +-0.6",
+            "chat_duration_time": "0:11:49 +-216s",
+            "num_EE_queries": "9.3 +-4.4",
+            "EE_processing_times": "0:01:36 +-64s",
+            "num_EX_sentences": "14.0 +-4.3",
+            "num_EX_words": "15.8 +-2.0",
+            "EX_write_times": "0:00:09 +-3s"
+        },
+        "enhanced": {
+            "pre_subj_comprehension": "3.1 +-0.8",
+            "pre_motivation": "4.0 +-0.6",
+            "post_subj_comprehension": "4.0 +-0.6",
+            "post_motivation": "4.1 +-0.6",
+            "post_obj_comprehension": "73.9% +-18.6",
+            "post_obj_comprehension_open-question-q1": "54.3% found the chat sufficient to answer the questions/statements",
+            "post_enabledness": "66.1% +-18.1",
+            "post_enabledness_open-question-q1": "67.4% found the chat sufficient to answer the questions/statements",
+            "post_constructiveness": "4.0 +-0.7",
+            "chat_duration_time": "0:13:07 +-199s",
+            "num_EE_queries": "10.5 +-4.7",
+            "EE_processing_times": "0:01:27 +-40s",
+            "num_EX_sentences": "10.4 +-3.7",
+            "num_EX_words": "17.3 +-2.5",
+            "EX_write_times": "0:00:07 +-2s"
+        }
+    },
+    "sleep": {
+        "base": {
+            "pre_subj_comprehension": "2.3 +-0.8",
+            "pre_motivation": "3.6 +-0.7",
+            "post_subj_comprehension": "3.9 +-0.5",
+            "post_motivation": "4.0 +-0.7",
+            "post_obj_comprehension": "75.7% +-15.6",
+            "post_obj_comprehension_open-question-q1": "53.2% found the chat sufficient to answer the questions/statements",
+            "post_enabledness": "65.1% +-22.8",
+            "post_enabledness_open-question-q1": "68.1% found the chat sufficient to answer the questions/statements",
+            "post_constructiveness": "3.8 +-0.6",
+            "chat_duration_time": "0:12:05 +-221s",
+            "num_EE_queries": "6.9 +-2.6",
+            "EE_processing_times": "0:02:07 +-73s",
+            "num_EX_sentences": "19.3 +-4.7",
+            "num_EX_words": "16.2 +-3.2",
+            "EX_write_times": "0:00:12 +-3s"
+        },
+        "enhanced": {
+            "pre_subj_comprehension": "2.1 +-0.8",
+            "pre_motivation": "3.5 +-0.7",
+            "post_subj_comprehension": "3.8 +-0.5",
+            "post_motivation": "4.0 +-0.5",
+            "post_obj_comprehension": "74.5% +-17.0",
+            "post_obj_comprehension_open-question-q1": "52.2% found the chat sufficient to answer the questions/statements",
+            "post_enabledness": "68.7% +-21.9",
+            "post_enabledness_open-question-q1": "67.4% found the chat sufficient to answer the questions/statements",
+            "post_constructiveness": "4.1 +-0.5",
+            "chat_duration_time": "0:13:39 +-161s",
+            "num_EE_queries": "9.4 +-3.5",
+            "EE_processing_times": "0:01:47 +-69s",
+            "num_EX_sentences": "12.7 +-3.6",
+            "num_EX_words": "17.2 +-2.0",
+            "EX_write_times": "0:00:07 +-2s"
+        }
+    },
+    "blackholes": {
+        "base": {
+            "pre_subj_comprehension": "2.0 +-0.8",
+            "pre_motivation": "3.6 +-0.7",
+            "post_subj_comprehension": "3.5 +-0.6",
+            "post_motivation": "3.8 +-0.8",
+            "post_obj_comprehension": "76.2% +-12.9",
+            "post_obj_comprehension_open-question-q1": "46.7% found the chat sufficient to answer the questions/statements",
+            "post_enabledness": "76.4% +-20.3",
+            "post_enabledness_open-question-q1": "60.0% found the chat sufficient to answer the questions/statements",
+            "post_constructiveness": "3.6 +-0.7",
+            "chat_duration_time": "0:13:27 +-197s",
+            "num_EE_queries": "8.6 +-3.9",
+            "EE_processing_times": "0:01:45 +-49s",
+            "num_EX_sentences": "20.0 +-4.8",
+            "num_EX_words": "18.6 +-1.5",
+            "EX_write_times": "0:00:13 +-3s"
+        },
+        "enhanced": {
+            "pre_subj_comprehension": "2.2 +-0.9",
+            "pre_motivation": "3.7 +-0.7",
+            "post_subj_comprehension": "3.7 +-0.6",
+            "post_motivation": "3.9 +-0.7",
+            "post_obj_comprehension": "75.2% +-14.0",
+            "post_obj_comprehension_open-question-q1": "57.4% found the chat sufficient to answer the questions/statements",
+            "post_enabledness": "73.6% +-24.4",
+            "post_enabledness_open-question-q1": "53.2% found the chat sufficient to answer the questions/statements",
+            "post_constructiveness": "4.2 +-0.5",
+            "chat_duration_time": "0:13:29 +-160s",
+            "num_EE_queries": "8.1 +-2.2",
+            "EE_processing_times": "0:01:46 +-36s",
+            "num_EX_sentences": "13.0 +-2.8",
+            "num_EX_words": "18.8 +-1.4",
+            "EX_write_times": "0:00:08 +-1s"
+        }
+    }
+}

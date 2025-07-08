@@ -1,0 +1,17 @@
+{
+    "pre_subj_comprehension": 0.6741012118027178,
+    "pre_motivation": 0.8853136808841814,
+    "post_subj_comprehension": 0.10524210920180496,
+    "post_motivation": 0.23745071580007737,
+    "post_obj_comprehension": 0.9228497053722591,
+    "post_obj_comprehension_open-question-q1": 0.8521583829348474,
+    "post_enabledness": 0.3344137463559146,
+    "post_enabledness_open-question-q1": 0.3352110493998234,
+    "post_constructiveness": 3.622262491124473e-07,
+    "chat_duration_time": 0.018215008910864423,
+    "num_EE_queries": 0.002574777764672554,
+    "EE_processing_times": 0.5726995822903596,
+    "num_EX_sentences": 5.607744676779813e-19,
+    "num_EX_words": 0.0002914858750251055,
+    "EX_write_times": 6.82635110009219e-20
+}

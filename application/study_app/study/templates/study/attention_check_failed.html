@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Attention check failed</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg text-center">
+            <h2 class="text-2xl font-semibold mb-4">Sorry, you failed the attention check!</h2>
+            <p class="text-gray-700">
+                As specified in the beginning of the study, we introduced checks to evaluate your
+                attention; you did not pass these checks. You can use the button below to return to
+                Prolific.
+            </p>
+            <a
+                href="{{ prolific_attention_check_failed_url }}"
+                class="mt-6 inline-block px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+                >Return to Prolific</a
+            >
+        </div>
+    </body>
+</html>
