@@ -1,0 +1,10 @@
+{
+    "base": {
+        "subj_comprehension": 7.968070633372848e-30,
+        "motivation": 0.0050116939827685395
+    },
+    "enhanced": {
+        "subj_comprehension": 1.845806647526017e-27,
+        "motivation": 7.008088685017786e-05
+    }
+}

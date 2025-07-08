@@ -1,0 +1,49 @@
+{
+    "Explanee": {
+        "dlg_act_label": {
+            "(D01) To ask a check question": 3.265509696308301e-07,
+            "(D02) To ask what/how question": 6.779381061605671e-12,
+            "(D03) To ask other kind of questions": 0.6448152060744237,
+            "(D04) To answer a question by confirming": 1.3100345237482883e-07,
+            "(D05) To answer a question by disconfirming": 7.423285611010399e-09,
+            "(D06) Answer - Other": 0.005592180858704424,
+            "(D07) Agreement": 1.5301048331955961e-09,
+            "(D08) Disagreement": 0.07721593481737028,
+            "(D09) Other": 0.6392707173497623,
+            "(D10) To provide informing statement": 9.416068046035838e-10
+        },
+        "exp_act_label": {
+            "(E01) Testing understanding": 0.546247982196788,
+            "(E02) Testing prior knowledge": 0.2950275896605278,
+            "(E03) Provide an explanation": 9.12674797945448e-12,
+            "(E04) Ask for an explanation": 2.1800079455204528e-16,
+            "(E05) Signaling understanding": 0.00047290140686719745,
+            "(E06) Signaling non-understanding": 0.009408277129686334,
+            "(E07) Providing Feedback": 1.1663944961369029e-07,
+            "(E08) Providing Assessment": 0.41529149415660027,
+            "(E09) Introducing Extraneous Information": 0.7613407760430982,
+            "(E10) Other": 0.5708082766483784
+        }
+    },
+    "Explainer": {
+        "dlg_act_label": {
+            "(D01) To ask a check question": 5.117807051397997e-16,
+            "(D02) To ask what/how question": 7.459259145922594e-08,
+            "(D04) To answer a question by confirming": 0.006795799339130142,
+            "(D05) To answer a question by disconfirming": 0.483526607284547,
+            "(D06) Answer - Other": 0.00027667886865426715,
+            "(D07) Agreement": 0.04230240655612195,
+            "(D09) Other": 0.7804255290134418,
+            "(D10) To provide informing statement": 3.8399467565000996e-07
+        },
+        "exp_act_label": {
+            "(E01) Testing understanding": 0.003552798583115058,
+            "(E02) Testing prior knowledge": 3.9467746694990366e-10,
+            "(E03) Provide an explanation": 1.2788145132806208e-08,
+            "(E04) Ask for an explanation": 0.141295706282551,
+            "(E07) Providing Feedback": 0.7619393794916234,
+            "(E09) Introducing Extraneous Information": 1.0,
+            "(E10) Other": 0.3832497617498518
+        }
+    }
+}

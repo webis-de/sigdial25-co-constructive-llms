@@ -1,0 +1,32 @@
+{
+    "quarto": {
+        "base": {
+            "subj_comprehension": 9.2752349466932e-08,
+            "motivation": 0.35849560645714296
+        },
+        "enhanced": {
+            "subj_comprehension": 1.4392668567382375e-07,
+            "motivation": 0.18661121071624975
+        }
+    },
+    "sleep": {
+        "base": {
+            "subj_comprehension": 3.598352651382369e-14,
+            "motivation": 0.027667486273413176
+        },
+        "enhanced": {
+            "subj_comprehension": 4.3393296151237674e-13,
+            "motivation": 0.0005618149568827744
+        }
+    },
+    "blackholes": {
+        "base": {
+            "subj_comprehension": 4.795741521829422e-12,
+            "motivation": 0.08028125666239007
+        },
+        "enhanced": {
+            "subj_comprehension": 2.186503444856493e-11,
+            "motivation": 0.03527530642541908
+        }
+    }
+}

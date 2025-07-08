@@ -1,0 +1,200 @@
+{
+    "sleep": {
+        "base": {
+            "pre_subj_comprehension": {
+                "upper_bound": 1.5714285714285714,
+                "lower_bound": 2.7142857142857144,
+                "mean": 2.252279635258359
+            },
+            "post_subj_comprehension": {
+                "upper_bound": 3.4,
+                "lower_bound": 4.2,
+                "mean": 3.91063829787234
+            },
+            "post_obj_comprehension": {
+                "upper_bound": 9,
+                "lower_bound": 13,
+                "mean": 10.595744680851064
+            },
+            "post_enabledness": {
+                "upper_bound": 2,
+                "lower_bound": 4,
+                "mean": 3.25531914893617
+            },
+            "post_constructiveness": {
+                "upper_bound": 3.1818181818181817,
+                "lower_bound": 4.454545454545454,
+                "mean": 3.8027079303675047
+            },
+            "subj_comprehension_gain": {
+                "upper_bound": 1.3263157894736841,
+                "lower_bound": 2.418181818181818,
+                "mean": 1.964087741932016
+            }
+        },
+        "enhanced": {
+            "pre_subj_comprehension": {
+                "upper_bound": 1.4285714285714286,
+                "lower_bound": 2.7142857142857144,
+                "mean": 2.1180124223602483
+            },
+            "post_subj_comprehension": {
+                "upper_bound": 3.6,
+                "lower_bound": 4.2,
+                "mean": 3.8043478260869565
+            },
+            "post_obj_comprehension": {
+                "upper_bound": 9,
+                "lower_bound": 12,
+                "mean": 10.434782608695652
+            },
+            "post_enabledness": {
+                "upper_bound": 3,
+                "lower_bound": 4,
+                "mean": 3.4347826086956523
+            },
+            "post_constructiveness": {
+                "upper_bound": 3.8181818181818183,
+                "lower_bound": 4.454545454545454,
+                "mean": 4.140316205533597
+            },
+            "subj_comprehension_gain": {
+                "upper_bound": 1.47,
+                "lower_bound": 2.45,
+                "mean": 2.0713656085430547
+            }
+        }
+    },
+    "quarto": {
+        "base": {
+            "pre_subj_comprehension": {
+                "upper_bound": 2.4285714285714284,
+                "lower_bound": 3.5714285714285716,
+                "mean": 2.9565217391304355
+            },
+            "post_subj_comprehension": {
+                "upper_bound": 3.6,
+                "lower_bound": 4.4,
+                "mean": 3.808695652173914
+            },
+            "post_obj_comprehension": {
+                "upper_bound": 9,
+                "lower_bound": 13,
+                "mean": 10.26086956521739
+            },
+            "post_enabledness": {
+                "upper_bound": 2,
+                "lower_bound": 4,
+                "mean": 2.9782608695652173
+            },
+            "post_constructiveness": {
+                "upper_bound": 3.3636363636363638,
+                "lower_bound": 4.2727272727272725,
+                "mean": 3.7845849802371534
+            },
+            "subj_comprehension_gain": {
+                "upper_bound": 1.1307692307692307,
+                "lower_bound": 1.4823529411764707,
+                "mean": 1.3458620398082608
+            }
+        },
+        "enhanced": {
+            "pre_subj_comprehension": {
+                "upper_bound": 2.5714285714285716,
+                "lower_bound": 3.7142857142857144,
+                "mean": 3.1180124223602483
+            },
+            "post_subj_comprehension": {
+                "upper_bound": 3.6,
+                "lower_bound": 4.4,
+                "mean": 4.034782608695652
+            },
+            "post_obj_comprehension": {
+                "upper_bound": 8,
+                "lower_bound": 13,
+                "mean": 10.347826086956522
+            },
+            "post_enabledness": {
+                "upper_bound": 3,
+                "lower_bound": 4,
+                "mean": 3.3043478260869565
+            },
+            "post_constructiveness": {
+                "upper_bound": 3.6363636363636362,
+                "lower_bound": 4.545454545454546,
+                "mean": 3.980237154150197
+            },
+            "subj_comprehension_gain": {
+                "upper_bound": 1.0956521739130436,
+                "lower_bound": 1.5555555555555554,
+                "mean": 1.3465393405821933
+            }
+        }
+    },
+    "blackholes": {
+        "base": {
+            "pre_subj_comprehension": {
+                "upper_bound": 1.2857142857142858,
+                "lower_bound": 2.4285714285714284,
+                "mean": 1.9619047619047618
+            },
+            "post_subj_comprehension": {
+                "upper_bound": 3.2,
+                "lower_bound": 3.8,
+                "mean": 3.5111111111111106
+            },
+            "post_obj_comprehension": {
+                "upper_bound": 9,
+                "lower_bound": 12,
+                "mean": 10.666666666666666
+            },
+            "post_enabledness": {
+                "upper_bound": 3,
+                "lower_bound": 5,
+                "mean": 3.8222222222222224
+            },
+            "post_constructiveness": {
+                "upper_bound": 3.090909090909091,
+                "lower_bound": 4.0,
+                "mean": 3.612121212121212
+            },
+            "subj_comprehension_gain": {
+                "upper_bound": 1.3263157894736841,
+                "lower_bound": 2.672727272727273,
+                "mean": 2.0660675260589363
+            }
+        },
+        "enhanced": {
+            "pre_subj_comprehension": {
+                "upper_bound": 1.2857142857142858,
+                "lower_bound": 3.0,
+                "mean": 2.1550151975683893
+            },
+            "post_subj_comprehension": {
+                "upper_bound": 3.2,
+                "lower_bound": 4.0,
+                "mean": 3.6808510638297878
+            },
+            "post_obj_comprehension": {
+                "upper_bound": 9,
+                "lower_bound": 12,
+                "mean": 10.53191489361702
+            },
+            "post_enabledness": {
+                "upper_bound": 3,
+                "lower_bound": 5,
+                "mean": 3.6808510638297873
+            },
+            "post_constructiveness": {
+                "upper_bound": 3.909090909090909,
+                "lower_bound": 4.545454545454546,
+                "mean": 4.1605415860735
+            },
+            "subj_comprehension_gain": {
+                "upper_bound": 1.2666666666666666,
+                "lower_bound": 2.8000000000000003,
+                "mean": 1.9953541522688447
+            }
+        }
+    }
+}

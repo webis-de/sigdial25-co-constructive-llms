@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form Page {{ page_index }}</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-lg text-center">
+            <h2 class="text-2xl font-semibold mb-4">{{ text }}</h2>
+            {% if subtext %}
+            <p class="text-gray-600 mb-6">{{ subtext | linebreaksbr}}</p>
+            {% endif %}
+
+            <div class="flex justify-between mt-4">
+                {% if allow_revisit_previous and previous_page is not None %}
+                <a
+                    href="{% url 'study:form_page' user_id=user_id page_index=previous_page %}"
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-all inline-block"
+                >
+                    Back
+                </a>
+                {% endif %} {% if next_page is not None %}
+                <a
+                    href="{% url 'study:form_page' user_id=user_id page_index=next_page %}"
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-all inline-block ml-auto"
+                    >Next</a
+                >
+                {% endif %}
+            </div>
+        </div>
+    </body>
+</html>

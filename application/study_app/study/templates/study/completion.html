@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Completion</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg text-center">
+            <h2 class="text-2xl font-semibold mb-4">Thank You for participating!</h2>
+            <p class="text-gray-700">
+                Your responses have been recorded successfully. We appreciate your time and effort.
+            </p>
+            <p>
+                <strong>
+                    Make sure to use the button below to return to Prolific and complete the study.
+                </strong>
+            </p>
+            <a
+                href="{{ prolific_completion_url }}"
+                class="mt-6 inline-block px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+                >Return to Prolific</a
+            >
+        </div>
+    </body>
+</html>
