@@ -1,16 +1,21 @@
 # Investigating Co-Constructive Behavior of Large Language Models in Explanation Dialogues
 
-Code for the paper [Investigating Co-Constructive Behavior of Large Language Models in Explanation Dialogues](https://arxiv.org/abs/2504.18483).
+Code for the paper [Investigating Co-Constructive Behavior of Large Language Models in Explanation Dialogues](https://aclanthology.org/2025.sigdial-1.1/).
 
 For details on the approach, architecture and idea, please see the published paper.
 
 ```
-@inproceedings{fichtel2025sigdial,
-    title           = {Investigating co-constructive behavior of large language models in explanation dialogues},
-    author          = {Leandra Fichtel and Maximilian Spliethöver and Eyke Hüllermeier and Patricia Jimenez and Nils Klowait and Stefan Kopp and Axel{-}Cyrille {Ngonga Ngomo} and Amelie Robrecht and Ingrid Scharlau and Lutz Terfloth and Anna-Lisa Vollmer and Henning Wachsmuth},
-    booktitle       = {Proceedings of the 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue},
-    year            = 2025,
-    publisher       = {Association for Computational Linguistics},
+@inproceedings{fichtel-etal-2025-investigating,
+	title        = {Investigating Co-Constructive Behavior of Large Language Models in Explanation Dialogues},
+	author       = {Fichtel, Leandra  and Splieth{\"o}ver, Maximilian  and H{\"u}llermeier, Eyke  and Jimenez, Patricia  and Klowait, Nils  and Kopp, Stefan  and Ngonga Ngomo, Axel-Cyrille  and Robrecht, Amelie  and Scharlau, Ingrid  and Terfloth, Lutz  and Vollmer, Anna-Lisa  and Wachsmuth, Henning},
+	year         = 2025,
+	month        = aug,
+	booktitle    = {Proceedings of the 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue},
+	publisher    = {Association for Computational Linguistics},
+	address      = {Avignon, France},
+	pages        = {1--20},
+	url          = {https://aclanthology.org/2025.sigdial-1.1/},
+	editor       = {B{\'e}chet, Fr{\'e}d{\'e}ric  and Lef{\`e}vre, Fabrice  and Asher, Nicholas  and Kim, Seokhwan  and Merlin, Teva},
 }
 ```
 
